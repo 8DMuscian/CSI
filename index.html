@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- saved from url=(0140) -->
 <html lang="en" foxified=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -46,6 +47,11 @@
         .nav-link {
             position: relative;
         }
+
+        .profile-icon {
+            transition: transform 0.3s ease, color 0.3s ease;
+        }
+
         
         .nav-link::after {
             content: '';
@@ -175,10 +181,17 @@
                 </div>
                 
                 <!-- Join Button -->
-                <div class="hidden md:block">
+                <div class="hidden md:flex items space-x-4">
                     <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSc5KbMxaHwWGCXVp74sGfozKjjKtEZllDZcf2Jls036SLyNTg/closedform'" class="bg-blue hover:bg-blueDark text-black font-medium px-5 py-2 rounded-full transition-all duration-300 transform hover:scale-105">
                         Join CSI
                     </button>
+                    <button onclick="location.href='file:///A:/CODE%201/WEB%20DEV/PROJECT/User%20Profile%20Website%20Design_files/saved_resource.html'">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="h-10 w-10 text-blue hover:bg-blue hover:text-black  rounded-full transition-all duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                        </svg> 
+                    </button>
+                   
+
                 </div>
                 
                 <!-- Mobile Menu Button -->
@@ -193,13 +206,14 @@
             
             <!-- Mobile Navigation -->
             <div id="mobile-menu" class="md:hidden hidden pt-4 pb-2 border-t border-gray-800 mt-3 transform transition-all duration-300 origin-top scale-95 opacity-0">
-                <div class="flex flex-col space-y-3">
-                    <a href="#home" class="mobile-link text-white hover:text-blue transition-colors">Home</a>
-                    <a href="#about" class="mobile-link text-white hover:text-blue transition-colors">About</a>
-                    <a href="#events" class="mobile-link text-white hover:text-blue transition-colors">Events</a>
-                    <a href="#team" class="mobile-link text-white hover:text-blue transition-colors">Team</a>
-                    <a href="#gallery" class="mobile-link text-white hover:text-blue transition-colors">Gallery</a>
-                    <a href="#contact" class="mobile-link text-white hover:text-blue transition-colors">Contact</a>
+                <div class="flex flex-col items-center space-y-3">
+                    <a href="#home" class="mobile-link text-white hover:text-blue transition-colors text-xl">HOME</a>
+                    <a href="file:///A:/CODE%201/WEB%20DEV/PROJECT/User%20Profile%20Website%20Design_files/saved_resource.html" class="mobile-link text-white hover:text-blue transition-colors text-xl">PROFILE</a>
+                    <a href="#about" class="mobile-link text-white hover:text-blue transition-colors text-xl">ABOUT</a>
+                    <a href="#events" class="mobile-link text-white hover:text-blue transition-colors text-xl">EVENTS</a>
+                    <a href="#team" class="mobile-link text-white hover:text-blue transition-colors text-xl">TEAM</a>
+                    <a href="#gallery" class="mobile-link text-white hover:text-blue transition-colors text-xl">GALLERY</a>
+                    <a href="#contact" class="mobile-link text-white hover:text-blue transition-colors text-xl">CONTACT US</a>
                     <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSc5KbMxaHwWGCXVp74sGfozKjjKtEZllDZcf2Jls036SLyNTg/closedform'" class="bg-blue hover:bg-blueDark text-black font-medium px-5 py-2 rounded-full transition-all duration-300 w-full mobile-link">
                     Join CSI
                     </button>
@@ -269,7 +283,7 @@
                     <div class="mt-12 flex items-center space-x-6">
                         <div class="flex -space-x-2">
                             <div class="w-10 h-10 rounded-full border-2 border-blue bg-gray-900 flex items-center justify-center">
-                                <span class="text-xs font-medium">1200+</span>
+                                <span class="text-xs font-medium">700+</span>
                             </div>
                         </div>
                         <p class="text-gray-300">Students already joined our community</p>
@@ -482,7 +496,7 @@
                             </svg>
                             November 5-6, 2023
                         </div>
-                        <h3 class="text-xl font-semibold mb-2">CodeFest 2023</h3>
+                        <h3 class="text-xl font-semibold mb-2">Hackathon</h3>
                         <p class="text-gray-400 mb-4">A 24-hour coding competition to solve real-world problems with innovative solutions.</p>
                         <div class="flex items-center justify-between">
                             <span class="text-sm text-blue">Starts at 9:00 AM</span>
@@ -754,7 +768,7 @@
                     </div>
                     <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-all duration-300">
                         <div class="text-center p-4">
-                            <h3 class="text-white font-semibold">AI Workshop</h3>
+                            <h3 class="text-white font-semibold">Linkden Workshop</h3>
                             <p class="text-blue text-sm">July 18, 2023</p>
                         </div>
                     </div>
@@ -769,7 +783,7 @@
                     </div>
                     <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-all duration-300">
                         <div class="text-center p-4">
-                            <h3 class="text-white font-semibold">Industry Visit</h3>
+                            <h3 class="text-white font-semibold">XENIA 25</h3>
                             <p class="text-blue text-sm">August 3, 2023</p>
                         </div>
                     </div>
@@ -799,7 +813,7 @@
                     </div>
                     <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center transition-all duration-300">
                         <div class="text-center p-4">
-                            <h3 class="text-white font-semibold">Freshers' Welcome</h3>
+                            <h3 class="text-white font-semibold">FE Carnival</h3>
                             <p class="text-blue text-sm">September 10, 2023</p>
                         </div>
                     </div>
@@ -927,4 +941,5 @@
 </script>
 
 
-</body></html>
+</body>
+</html>
